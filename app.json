@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/second/second"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Test",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+      "color": "#dddddd",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+       "list": [{
+          "pagePath": "pages/index/index",
+          "iconPath": "image/wechat.png",
+          "selectedIconPath": "image/wechatHL.png",
+          "text": "首页"
+        }, {
+          "pagePath": "pages/second/second",
+          "iconPath": "image/locate.png",
+          "selectedIconPath": "image/locateHL.png",
+          "text": "定位"
+        },{
+          "pagePath": "pages/logs/logs",
+          "iconPath": "image/wechat.png",
+          "selectedIconPath": "image/wechat.png",
+          "text": "其他项目"
+        }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

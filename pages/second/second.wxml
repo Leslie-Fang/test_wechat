@@ -1,0 +1,4 @@
+<view>
+    <text>First Page,welcome,{{secondname}}</text>
+    <button bindtap="back2index">Back</button>
+</view>
