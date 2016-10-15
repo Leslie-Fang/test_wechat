@@ -3,9 +3,5 @@
   <block wx:for="{{logs}}" wx:for-item="log">
     <text class="log-item">{{index + 1}}. {{log}}</text>
   </block>
-  <view>
-    <text class="container">{{name}}</text>
-    <button bindtap="changeName">Click</button>
-    <button bindtap="navigate2second">Navigate</button>
-  </view>
+  <button bindtap="Navigate">个人主页</button>
 </view>
