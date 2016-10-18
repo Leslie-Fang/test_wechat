@@ -72,7 +72,7 @@ Page({
           name: 'file'
         })
         */
-        wx.navigateTo({
+        wx.redirectTo({
           url: '../logs/logs'
         })
 
