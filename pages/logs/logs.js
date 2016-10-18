@@ -15,5 +15,8 @@ Page({
     wx.navigateTo({
       url: '../Introduction/Introduction'
     })
+  },
+  Back:function(){
+    wx.navigateBack()
   }
 })
