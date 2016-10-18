@@ -5,6 +5,6 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="usermotto">
-    <button bindtap="nav2second">Login</button>
+    <text class="user-motto">{{motto}}{{myname}}</text>
   </view>
 </view>

@@ -2,8 +2,7 @@
 var util = require('../../utils/util.js')
 Page({
   data: {
-    logs: [],
-    name:'hello leslie'
+    logs: []
   },
   onLoad: function () {
     this.setData({
@@ -12,11 +11,12 @@ Page({
       })
     })
   },
-  changeName:function(e){
-    this.setData({name:'expect'})
+  Navigate:function(){
+    wx.navigateTo({
+      url: '../Introduction/Introduction'
+    })
   },
-  navigate2second:function(e)
-  {
-    wx.navigateTo({url:'../second/second'})
+  Back:function(){
+    wx.navigateBack()
   }
 })

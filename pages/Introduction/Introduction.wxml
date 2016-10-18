@@ -1,0 +1,8 @@
+<view> 
+<text>{{myname}}</text>
+<map longitude="113.324520" latitude="23.099994" markers="{{markers}}" covers="{{covers}}" style="width: 375px; height: 200px;"></map>
+<button bindtap="changename">Change name</button> 
+<button bindtap="upload_image">上传图片</button> 
+<button wx:if="{{array[0].msg == 1 }}" bindtap="changename2">获取当前定位</button> 
+<button wx:else bindtap="changename3">Change name3</button> 
+</view>

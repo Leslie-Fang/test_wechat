@@ -2,12 +2,12 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/second/second"
+    "pages/Introduction/Introduction"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Test",
+    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   },
   "tabBar":{
@@ -21,15 +21,15 @@
           "selectedIconPath": "image/wechatHL.png",
           "text": "首页"
         }, {
-          "pagePath": "pages/second/second",
-          "iconPath": "image/locate.png",
-          "selectedIconPath": "image/locateHL.png",
-          "text": "定位"
+          "pagePath": "pages/Introduction/Introduction",
+          "iconPath": "image/my.jpg",
+          "selectedIconPath": "image/my.jpg",
+          "text": "主页"
         },{
           "pagePath": "pages/logs/logs",
-          "iconPath": "image/wechat.png",
-          "selectedIconPath": "image/wechat.png",
-          "text": "其他项目"
+          "iconPath": "image/locateHL.png",
+          "selectedIconPath": "image/locate.png",
+          "text": "记录"
         }]
   },
   "networkTimeout": {

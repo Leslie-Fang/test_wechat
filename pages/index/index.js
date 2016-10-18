@@ -3,9 +3,9 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    welcome:"Welcome",
-    userInfo: {}
+    motto: 'Hello,',
+    userInfo: {},
+    myname:' LittleCrab'
   },
   //事件处理函数
   bindViewTap: function() {
@@ -24,9 +24,6 @@ Page({
       })
     })
   },
-  nav2second:function(e){
-    wx.navigateTo(
-      { url:'../second/second'}
-    )
+  onShow:function(){
   }
 })
