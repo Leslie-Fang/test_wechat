@@ -20,7 +20,8 @@ Page({
       longitude: 113.324129,
       iconPath: '../images/my.png',
       rotate: 90
-    }]
+    }],
+    image1_src:'../../image/my.jpg'
   },
   //事件处理函数
   bindViewTap: function() {
@@ -58,6 +59,7 @@ Page({
     }) 
   },
   upload_image:function(){
+      var that=this
       wx.chooseImage({
       count: 1, // 默认9
       sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
@@ -65,6 +67,10 @@ Page({
       success: function (res) {
         // 返回选定照片的本地文件路径列表，tempFilePath可以作为img标签的src属性显示图片
         var tempFilePaths = res.tempFilePaths
+        that.setData({
+       //	  image1_src:'../../image/wechat.png'
+            image1_src:tempFilePaths
+        })
        /* //没有租用服务器
           wx.uploadFile({
           url: 'http://example.com/upload',
@@ -72,10 +78,12 @@ Page({
           name: 'file'
         })
         */
+        /*
+        //close 当前页面，去往另一个页面，相对应的 navigate to 并不关闭当前的页面
         wx.redirectTo({
           url: '../logs/logs'
         })
-
+        */
         },
       complete:function(res){
          
