@@ -90,5 +90,11 @@ Page({
       }
       })
 
-  }
+  },
+  towebpage:function()
+  {
+    wx.navigateTo({
+      url: '../webpage/webpage'
+    })
+  },
 })
