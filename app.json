@@ -2,7 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/Introduction/Introduction"
+    "pages/Introduction/Introduction",
+    "pages/webpage/webpage"
+
   ],
   "window":{
     "backgroundTextStyle":"light",
