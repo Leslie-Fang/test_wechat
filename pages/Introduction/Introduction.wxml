@@ -5,6 +5,7 @@
     <button bindtap="upload_image">上传图片</button> 
     <button wx:if="{{array[0].msg == 1 }}" bindtap="changename2">获取当前定位</button> 
     <button wx:else bindtap="changename3">Change name3</button>  
+    <button bindtap="towebpage">导航前往webpage</button>  
 </view>
 <view>
     <image class="image" mode="aspectFit" src="{{image1_src}}"/> 
