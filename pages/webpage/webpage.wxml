@@ -1,4 +1,5 @@
 <view> 
     <text>{{myname}}</text>
     <button bindtap="connect">Connect WebPage</button> 
+    <button bindtap="showtoast">showtoast</button>
 </view>
