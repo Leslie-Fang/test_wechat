@@ -11,6 +11,13 @@ Page({
       })
     })
   },
+  onReady:function(){
+    wx.showToast({
+      title: '加载成功',
+      icon: 'success',
+      duration: 1500
+    })
+  },
   Navigate:function(){
     wx.navigateTo({
       url: '../Introduction/Introduction'
